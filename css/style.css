@@ -1,0 +1,39 @@
+{
+    border: 1px solid gray;
+}
+
+body {
+    width: 800px;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.btn {}
+
+.link {
+    color: green;
+    justify-content: center;
+    margin: 1%;
+    padding: 5px;
+}
+
+.link:hover {
+    color: white;
+    background-color: green;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px;
+}
+
+.link:active {
+    color: blue;
+}
+
+div.div {
+    display: flex;
+    justify-content: center;
+}
