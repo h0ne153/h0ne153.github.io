@@ -1,26 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 body {
-    width: 90%;
-    background-color: #DCDCDC;
-    font-size: 165%;
+    background-color: white;
     display: block;
-    margin: 0 auto;
-    background-image: url(/img/Shapka_v1.01.png) ;
-    background-size:contain;
+
     font-family: 'Montserrat', sans-serif;
-}   
+    margin: 0% auto;
+}
 
 .ul-nav {
     display: flex;
     justify-content: space-around;
     background-color: white;
-    border-radius: 30px;
+    margin-top: 0%;
+    font-size: 150%;
 }
 
 .logo {}
 
 .li-nav {
-    margin: 1%;
+    margin: 0%;
     list-style-type: none;
     margin-top: auto;
     margin-bottom: auto;
@@ -29,7 +28,7 @@ body {
 .link-nav {
     color: azure;
     font-family: 'Montserrat', sans-serif;
-    color:darkgreen;
+    color: darkgreen;
 }
 
 .link-nav:hover {
@@ -39,28 +38,46 @@ body {
 .text-logo {
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 175%;
-    margin:0.5%;
+    font-size: 150%;
+    margin: 0.5%;
 }
-img-logo{
+
+img-logo {
     display: block;
     margin: 0 auto;
 }
 
 main {
     background-color: white;
-    margin-top: 20%;
-    border-radius: 30px;
-}
-.div-about-us{
-    display: flex;
-    justify-content: center;
+    margin: auto;
+    margin-top: 10%;
+    font-size: 175%;
+    border-radius: 50px 50px 0px 0px;
 }
 
-.h1_div-about-us{
-    font-size: 300%;
+.div-about-us {
+    display: flex;
+    text-align: left;
+    font-size: 90%;
+    margin-left: 35%;
+    justify-content: center;
+}
+.h1-about-us{
+    font-weight: bolder;
+    font-size: 155%;
     display: flex;
     justify-content: center;
 }
+.quest-about-us{
+    background: #DCDCDC;
+    display: flex;
+    justify-content: space-around;
+
+}
+.e{
+    font-size: 65%; 
+
+}
+
 
 
