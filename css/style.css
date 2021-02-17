@@ -100,3 +100,97 @@ main {
     margin-bottom: 5%;
     margin-top: 5%;
 }
+
+.news{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25%;
+    margin-left: 25%;
+    background-color: #DCDCDC;
+    border-radius: 50px 50px 50px 50px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.news-link{
+    margin: 2.5%;
+    font-size: 90%;
+}
+
+.news-img{
+    width: 35%;
+}
+
+.news-img_img{
+    float: right;
+    margin: 5%;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.h1-news{
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
