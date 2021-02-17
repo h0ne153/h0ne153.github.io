@@ -13,10 +13,8 @@ body {
     justify-content: space-around;
     background-color: white;
     margin-top: 0%;
-    font-size: 200%;
+    font-size: 175%;
 }
-
-.logo {}
 
 .li-nav {
     margin: 0%;
@@ -85,7 +83,7 @@ main {
     margin-bottom: 5%;
 }
 
-.footer-column {
+.quest-column {
     width: 33%;
 }
 
