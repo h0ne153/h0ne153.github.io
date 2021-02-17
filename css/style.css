@@ -118,7 +118,7 @@ main {
 }
 
 .news-img{
-    width: 35%;
+    width: 500px;
 }
 
 .news-img_img{
@@ -131,6 +131,8 @@ main {
     display: flex;
     justify-content: center;
     font-size: 150%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 
