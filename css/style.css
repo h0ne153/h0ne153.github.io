@@ -92,7 +92,7 @@ main {
 }
 
 .text-quest-about-us {
-    font-size: 80%;
+    font-size: 65%;
 }
 
 .contacts-all {
@@ -175,14 +175,18 @@ footer{
     margin-bottom: 12px;
 }
 
+li { 
+/*   list-style-type: none; */
+}
 
-
-
-
-
-
-
-
+ol.text-quest-obout-us li {}
+ol.text-quest-obout-us li::before {
+    content:"2";
+    position: absolute;
+    left: -3ch;
+    color:blue; 
+/*font-weight: bolder;*/
+}
 
 
 
