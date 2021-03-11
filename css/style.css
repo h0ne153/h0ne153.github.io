@@ -1,12 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
+nav{
+    width:100%;
+}
 body {
-    background-image: url(/img/Shapka_v1.01.png);
     display: block;
     font-family: 'Montserrat', sans-serif;
     margin: 0% auto;
     background-size: contain;
+    background-color: #73B548;
+    
 }
+
+
+.bg-img{
+    max-width: 100%;
+    position: absolute;
+}
+
+#layer1{ position:absolute; }
+
+#layer1 { z-index: -1; }
+
 
 .ul-nav {
     display: flex;
@@ -14,6 +28,7 @@ body {
     background-color: white;
     margin-top: 0%;
     font-size: 175%;
+    margin-bottom: 0%;
 }
 
 .li-nav {
@@ -57,6 +72,8 @@ main {
 
 .main-for-news{
     background-color: #DCDCDC;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
 .div-about-us {
@@ -157,6 +174,7 @@ main {
 footer{
     background-color: white;
     height: 150px;
+    margin-bottom: 0%;
 }
 
 .my-contacts{
@@ -174,21 +192,6 @@ footer{
     margin-top: 50px;
     margin-bottom: 12px;
 }
-
-li { 
-/*   list-style-type: none; */
-}
-
-ol.text-quest-obout-us li {}
-ol.text-quest-obout-us li::before {
-    content:"2";
-    position: absolute;
-    left: -3ch;
-    color:blue; 
-/*font-weight: bolder;*/
-}
-
-
 
 
 
