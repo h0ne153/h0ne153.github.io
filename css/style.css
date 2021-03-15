@@ -41,7 +41,7 @@ body {
 .link-nav {
     color: azure;
     font-family: 'Montserrat', sans-serif;
-    color: darkgreen;
+    color: #73B548;
 }
 
 .link-nav:hover {
@@ -65,13 +65,13 @@ img-logo {
 main {
     background-color: white;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 30%;
     font-size: 175%;
     border-radius: 50px 50px 0px 0px;
 }
 
 .main-for-news{
-    background-color: #DCDCDC;
+    background-color: white;
     margin-left: 2.5%;
     margin-right: 2.5%;
 }
@@ -129,7 +129,7 @@ main {
     justify-content: flex-end;
     margin-right: 25%;
     margin-left: 25%;
-    background-color: white;
+    background-color: #DCDCDC;
     border-radius: 50px 50px 50px 50px;
     margin-bottom: 5%;
     margin-top: 5%;
@@ -178,7 +178,7 @@ footer{
 }
 
 .my-contacts{
-    color: darkgreen;
+    color: #73B548;
 }
 
 .my-contacts-div{
