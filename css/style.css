@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 nav{
     width:100%;
+    text-decoration: none;
 }
 body {
     display: block;
@@ -8,7 +9,7 @@ body {
     margin: 0% auto;
     background-size: contain;
     background-color: #73B548;
-    
+    text-decoration: none;
 }
 
 
@@ -42,10 +43,12 @@ body {
     color: azure;
     font-family: 'Montserrat', sans-serif;
     color: #73B548;
+    text-decoration: none;
 }
 
 .link-nav:hover {
     color: black;
+    text-decoration: none;
 }
 
 .text-logo {
@@ -129,15 +132,56 @@ main {
     justify-content: flex-end;
     margin-right: 25%;
     margin-left: 25%;
-    background-color: #DCDCDC;
+    background-color: white;
     border-radius: 50px 50px 50px 50px;
     margin-bottom: 5%;
     margin-top: 5%;
+    box-shadow: 0 0 10px #73B548;
+    padding: 10px;
+
 }
+
+.news:hover {
+    -webkit-transform: scale(1.025);
+    -ms-transform: scale(1.025);
+    transform: scale(1.025);
+}
+
+
+/*  ДЛЯ НЬЮС ЭФФЕКТОВ
+
+    Уменьшение при наведении
+    .news:hover {
+      -webkit-transform: scale(0.975);
+      -ms-transform: scale(0.975);
+      transform: scale(0.975);
+    }*/
+
+    /*. Обводка внутри, но почему-то сразу, а не за 0,3 секунды
+    news:hover{
+        box-shadow: inset 0 0 0 10px #73B548;
+        -webkit-transition: all 0.3s ease;
+        
+    }*/
+
+    /* Сдвиг влево вверх
+    .news:hover {
+      box-shadow:
+        1px 1px #73B548,
+        2px 2px #73B548,
+        3px 3px #73B548,
+        4px 4px #73B548,
+        5px 5px #73B548,
+        6px 6px #73B548,
+        7px 7px #73B548;
+      -webkit-transform: translateX(-7px);
+      transform: translateX(-7px);
+    }*/
 
 .news-link{
     margin: 2.5%;
     font-size: 90%;
+    text-decoration: none;
 }
 
 .news-img{
@@ -160,6 +204,8 @@ main {
 
 .img-about-us{
     margin: 50px;
+    animation-duration: 1s;
+    dista
 }
 
 .main-center{
@@ -179,6 +225,7 @@ footer{
 
 .my-contacts{
     color: #73B548;
+    text-decoration: none;
 }
 
 .my-contacts-div{
