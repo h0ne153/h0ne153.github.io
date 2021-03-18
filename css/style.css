@@ -12,6 +12,13 @@ body {
     text-decoration: none;
 }
 
+li{
+    list-style-type: none;;
+}
+
+.animate__animated{
+    
+}
 
 .bg-img{
     max-width: 100%;
@@ -205,7 +212,6 @@ main {
 .img-about-us{
     margin: 50px;
     animation-duration: 1s;
-    dista
 }
 
 .main-center{
