@@ -315,7 +315,13 @@ body {
   margin: 0 auto;
 }*/
 
-
+.map{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 95%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
 
 
 
