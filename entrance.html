@@ -7,23 +7,32 @@
     <title> Contacts from EcoLife </title>
 </head>
 
-<body>
+<body class="body-entrance">
     <header>
-        <!-- Навигация и все что в ней-->
-        <nav id="layer2">
-            <ul class="ul-nav">    
-                <div class="text-logo">
-                    Eco Life
-                </div>
-            </ul>
-        </nav>
-        <main>
-            <div>
-                имя.фамилия.почта.пароль.повтор пароля.пол.дата рождения.логин
+        <main class="main-entrance">
+        <form action="action_page.php">
+            <div class="container">
+            <h1>Регистрация</h1>
+            <p>Пожалуйста введите данные для регистрации на сайте.</p>
+                <hr>
+                    <label for="email"><b>Имя</b></label>
+                    <input type="text" placeholder="Ваше имя" name="email" required>
+                    <label for="email"><b>Почтовый адрес</b></label>
+                    <input type="text" placeholder="Ваш адрес" name="email" required>
+                    <label for="psw"><b>Пароль</b></label>
+                    <input type="password" placeholder="Пароль" name="psw" required>
+                    <label for="psw-repeat"><b>Повтор пароля</b></label>
+                    <input type="password" placeholder="Повторение пароля" name="psw-repeat" required>
+                <hr>
+                <button type="submit" class="registerbtn">Готово</button>
             </div>
-            <a href="#">уже зарегистрированы?</a>
+            <div class="container signin">
+                <a href="#" class="already-reg">уже зарегистрированы?</a>
+            </div>
+            </form>
         </main>
     </header>
+    
 
 </body>
 

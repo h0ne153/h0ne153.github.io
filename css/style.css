@@ -92,7 +92,7 @@ main {
     font-size: 90%;
     justify-content: center;
     margin-bottom: 5%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .h1-about-us {
@@ -102,9 +102,13 @@ main {
     justify-content: center;
 }
 
+.img-column-1{
+    a
+}
+
 .quest-about-us {
     background: #DCDCDC;
-    display: flex;
+    margin-top: 5%;
 }
 
 .quest {
@@ -116,10 +120,14 @@ main {
 
 .quest-column {
     width: 33%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
 }
 
 .text-quest-about-us {
     font-size: 65%;
+    display: inherit;
 }
 
 .contacts-all {
@@ -212,6 +220,11 @@ main {
 .img-about-us{
     margin: 50px;
     animation-duration: 1s;
+}
+
+.text-about-us{
+    float: left;
+    margin: 7px 7px 7px 0; 
 }
 
 .main-center{
@@ -353,7 +366,6 @@ body {
 
 .view .mask,
 .view .content {
-    margin-top: 1%;
     width: 175px;
     height: 175px;
     position: absolute;
@@ -390,14 +402,10 @@ body {
     display: inline-block;
     text-decoration: none;
     padding: 7px 14px;
-    background: black;
-    color: #fff;
+    background: white;
+    color: #73B548;
     text-transform: uppercase;
-    box-shadow: 0 0 1px #000;
-}
-
-.view a.info:hover {
-    box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 1px #fff;
 }
 
 /*1*/
@@ -458,13 +466,76 @@ body {
     transition-delay: 0.2s;
 }
 
+* {
+box-sizing: border-box;
+}
 
+/* Add padding to containers */
+.container {
+  padding: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
 
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
 
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
 
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
 
+.registerbtn:hover {
+  opacity:1;
+}
 
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.already-reg{
+    font-size: 15px;
+}
+
+.main-entrance{
+    width: 80%;
+}
+
+.body-entrance{
+    background-image: url(/img/Shapka_v1.03.png);
+}
 
 
 
