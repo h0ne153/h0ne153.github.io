@@ -316,8 +316,8 @@ body {
 }*/
 
 .btns-first{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
     display: flex;
     justify-content: space-around;
     margin-bottom: 0px;
@@ -339,6 +339,7 @@ body {
 
 
 .view {
+    font-size: 12px;
     background-color: white;
     border-radius: 200px 200px 200px 200px;
     margin: 10px;
@@ -352,8 +353,9 @@ body {
 
 .view .mask,
 .view .content {
-    width: 300px;
-    height: 300px;
+    margin-top: 1%;
+    width: 175px;
+    height: 175px;
     position: absolute;
     overflow: hidden;
     top: 0;
@@ -370,14 +372,14 @@ body {
     color: #fff;
     text-align: center;
     position: relative;
-    font-size: 17px;
+    font-size: 12px;
     padding: 10px;
     margin: 20px 0 0 0;
 }
 
 .view p {
     font-style: italic;
-    font-size: 14px;
+    font-size: 12px;
     position: relative;
     color: #fff;
     padding: 0px 20px 0px;
@@ -402,8 +404,8 @@ body {
 
 .view-first img {
     transition: all 0.2s linear;
-    width: 300px;
-    height: 300px;
+    width: 175px;
+    height: 175px;
 }
 
 .view-first .mask {
@@ -456,9 +458,7 @@ body {
     transition-delay: 0.2s;
 }
 
-.mask{
-    margin-top: 20%;
-}
+
 
 
 
