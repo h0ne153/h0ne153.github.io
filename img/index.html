@@ -4,9 +4,32 @@
 <head>
     <link rel="stylesheet" href="css/style.css">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body>
+    <script>
+        
+        
+        /*let body = document.body;
+        
+        function changeBackground(){
+            let input = document.getElementById('checkbox')
+            body.style.backgroundColor = input.checked ? 'black' : 'white';
+        }*/
+        
+    </script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+<!--    <div class="container">
+        <label class="switch" for="checkbox">
+            <input type="checkbox" id="checkbox" onclick="changeBackground()"/>
+            <div class="slider round"></div>
+        </label>
+    </div>-->
+    
     <header>
         <!-- Навигация и все что в ней-->
         <nav id="layer2">
@@ -22,49 +45,91 @@
                 </li>
             </ul>
         </nav>
-        <img class="bg-img" id="layer1" src="/img/Shapka_v1.02.png">
+        <img class="bg-img" id="layer1" src="/img/Shapka_v1.03.png">
+        <div class="btns-first">
+            <div class="view view-first">
+                <img src="img/button-lamp-white.png" class="sami-btn">
+                <div class="mask">
+                    <h2> 
+                        Переход на карту
+                    </h2> 
+                    <p>
+                        Переход на саму карту пойдет через другой сайт
+                    </p>
+                    <a href="https://www.google.com/maps/d/viewer?hl=ru&mid=185gsQ3mJQyBDLD4N1RolKHOssbynioe3&ll=56.86988245531209%2C53.24685487752072&z=12" class="info">Перейти на карту</a>
+                </div>
+            </div>
+            <div class="view view-first">
+                <img src="img/button-water-white.png" class="sami-btn">
+                <div class="mask">
+                    <h2> 
+                        Регистрация
+                    </h2> 
+                    <p>
+                        Зарегестригуйтесь на сайте если вы тут в впервые
+                    </p>
+                    <a href="entrance.html" class="info">Регестрирование</a>
+                </div>
+            </div>
+            <div class="view view-first">
+                <img src="img/button-cycle-white.png" class="sami-btn">
+                <div class="mask">
+                    <h2> 
+                        Переход на карту
+                    </h2> 
+                    <p>
+                        Переход на саму карту пойдет через другой сайт
+                    </p>
+                    <a href="#" class="info">Read More</a>
+                </div>
+            </div>
+        </div>
         <main class="main-center" id="layer2">
             <div class="div-about-us">
-                <div class="img-about-us">
+                <div class="wow img-about-us animate__animated animate__fadeInLeft" >
                     <img src="img/Logo.png" width="300px">
                 </div>
-                <div class="about-us">
+                <div class="wow about-us animate__animated animate__slideInRight">
                     <h1 class="h1-about-us">
                         EcoLife (ЭкоЛайв)
                     </h1>
-                    <p>Приложение, направленное на популяризацию экологически чистого образа жизни, призвано упростить путь от "обычной" жизни, до "экологической".</p>
+                    <div class="text-about-us">
+                        <p>Приложение, направленное на популяризацию экологически чистого образа жизни, призвано упростить путь от "обычной" жизни, до "экологической".</p>
 
-                    <p>Люди издавна используют ресурсы нашей планеты, но людей стало больше, их потребности возросли, а возможности нашей планеты не увеличились. И без нашей помощи ей не справится.</p>
+                        <p>Люди издавна используют ресурсы нашей планеты, но людей стало больше, их потребности возросли, а возможности нашей планеты не увеличились. И без нашей помощи ей не справится.</p>
 
-                    <p>Только вместе мы сможем сохранить этот мир для наших потомков!</p>
+                        <p>Только вместе мы сможем сохранить этот мир для наших потомков!</p>
+                    </div>
                 </div>
             </div>
             <div class="quest-about-us">
-                <div class="quest-column">
-                    <center>
-                        <h2 class="quest">Наши цели</h2>
-                        <img src="img/our-purpose.png" width="25%">
-                    </center>
-                    <ul class="text-quest-about-us">
-                        <li>
-                            Популиризация экологичного образа жизни
-                        </li>
-                        <li>
-                            Упрощение работы эко-организаций
-                        </li>
-                        <li>
-                            Упрощение получения правдивой информации о состоянии окружающей среды
-                        </li>
+                <div class="quest-column-1">
+                    
+                        <h2 class="wow animate__animated animate__slideInUp quest">Наши цели</h2>
+                        <img class="wow animate__animated animate__slideInUp img-column-1" src="img/our-purpose.png" width="25%">
+                    
+                    <ul class="wow text-quest-about-us  animate__animated animate__slideInUp">
+                       
+                            <li>
+                                Популиризация экологичного образа жизни
+                            </li>
+                            <li>
+                                Упрощение работы эко-организаций
+                            </li>
+                            <li>
+                                Упрощение получения правдивой информации о состоянии окружающей среды
+                            </li>
+                       
                     </ul>
                 </div>
-                <div class="quest-column">
-                    <center>
-                        <h3 class="quest">
+                <div class="quest-column-2">
+                    
+                        <h3 class="wow quest animate__animated animate__slideInUp">
                             Как мы будем достигать их
                         </h3>
-                        <img src="img/our-purpose.png" width="25%">
-                    </center>
-                    <ul class="text-quest-about-us">
+                        <img class="wow  animate__animated animate__slideInUp" src="img/our-purpose.png" width="25%">
+                    
+                    <ul class="wow text-quest-about-us  animate__animated animate__slideInUp">
                         <li>
                             <center>
                                 Разработка социальной сети, имеющая набор функций для упрощения работы эко-организаций, поиска и получения правдивой информации и привлечение новых пользователей, которые своими примерами будут воодушевлять других на помощь природе
@@ -72,14 +137,14 @@
                         </li>
                     </ul>
                 </div>
-                <div class="quest-column">
+                <div class="quest-column-3">
                     <center>
-                        <h4 class="quest">
+                        <h4 class="wow quest animate__animated animate__slideInUp">
                             Как вы нам можете помочь
                         </h4>
-                        <img src="img/our-purpose.png" width="25%">
+                        <img class="wow animate__animated animate__slideInUp" src="img/our-purpose.png" width="25%">
                     </center>
-                    <ul class="text-quest-about-us">
+                    <ul class="wow text-quest-about-us animate__animated animate__slideInUp">
                         <center>
                             <li>
                                 Вступайте в наши ряды

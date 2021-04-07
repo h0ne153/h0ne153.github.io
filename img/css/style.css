@@ -125,12 +125,6 @@ main {
     
 }
 
-.quest-column-3 {
-    margin-top: 5%;
-    padding-bottom: 10%;
-    
-}
-
 .text-quest-about-us {
     font-size: 65%;
     display: inherit;
@@ -514,7 +508,6 @@ hr {
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
-    font-size: 20px;
 }
 
 .registerbtn:hover {
@@ -533,34 +526,22 @@ a {
 }
 
 .already-reg{
-    font-size: 20px;
-    color: #4CAF50;
+    font-size: 15px;
 }
 
 .main-entrance{
     width: 80%;
-    margin-top: 2.5%;
-    font-size: 20px;
 }
 
 .body-entrance{
     background-image: url(/img/Shapka_v1.03.png);
-    font-family: 'Montserrat', sans-serif;
 }
 
-.bi-arrow-left-circle-fill{
-    margin-left: 5%;
-    margin-top: 2.5%;
-}
 
-.h1-entrance{
-    margin-top: 2.5%;
-    font-weight: bold;
-}
 
-.thanks-news{
-    padding-bottom: 10%;
-}
+
+
+
 
 
 
