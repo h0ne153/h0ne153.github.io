@@ -186,8 +186,7 @@ main {
     text-align: left;
     font-size: 90%;
     justify-content: center;
-    margin-bottom: 5%;
-    margin-top: 10%;
+    margin-bottom: 20%;
 }
 
 .h1-about-us {
@@ -198,45 +197,45 @@ main {
 }
 
 .quest-about-us {
-    background: #DCDCDC;
     margin-top: 5%;
 }
 
 .img-column{
-    margin-left: 2.5%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    margin-left: 5%;
+    margin-top: 7.5%;
+    margin-bottom: 7.5%;
 }
 
 
 .quest {
     font-size: 90%;
     font-weight: bolder;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 100%;
+    margin-bottom: 0%;
+    width: 100%;
 }
 
 .quest-column {
     display: flex;
-    
-}
-
-.h2-column{
-    position: absolute;
-    margin-left: 335px;
-    font-size: 40px;
-}
-
-
-.quest-column-3 {
     margin-top: 5%;
-    padding-bottom: 10%;
-    
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #B1916D;
 }
+
+
 
 .text-quest-about-us {
-    font-size: 65%;
-    display: inherit;
+    font-size: 70%;
+    position: relative;
+    margin-right: 10px;
+    width: 95%;
+    margin-top: 20%;
+    margin-left: -75%;
 }
 
 .contacts-all {
@@ -263,12 +262,6 @@ main {
     box-shadow: 0 0 10px #73B548;
     padding: 10px;
 
-}
-
-.text-column{
-    position: relative;
-    margin-top: 175px;
-    font-size: 25px;
 }
 
 .news:hover {
@@ -345,11 +338,12 @@ main {
 .main-center{
     margin-left: 2.5%;
     margin-right: 2.5%;
-    margin-top: 100%;
+    margin-top: 60%;
 }
 
 .about-us{
     margin: 15px;
+    margin-top: 5%;
 }
 
 footer{
