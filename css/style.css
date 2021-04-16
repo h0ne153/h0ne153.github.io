@@ -18,7 +18,13 @@ nav a {
   display: block;
   color: #222;
 }
+.down{
+    position: relative;
+}
+
 .topmenu{
+    margin-top: -62%;
+    margin-left: 10%;
 }
 
 .topmenu > li {
@@ -28,7 +34,7 @@ nav a {
 .topmenu > li > a {
     position: relative;
     padding: 10px 15px;
-    font-size: 1.5em;
+    font-size: 1.25em;
     line-height: 1;
     letter-spacing: 3px;
 }
@@ -72,7 +78,7 @@ nav a {
   transform: translate(-50%, 0);
 }
 .submenu a {
-  font-size: 11px;
+  font-size: 12.5px;
   letter-spacing: 1px;
   padding: 5px 10px;
   transition: .3s linear;
@@ -147,13 +153,13 @@ li{
 .text-logo {
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 150%;
+    font-size: 175%;
     background-color: white;
     position: relative;
     width: 100%;
     padding: 1%;
     padding-left: 5%;
-    margin-top: -50.0%;
+    margin-top: -56%;
 }
 
 img-logo {
