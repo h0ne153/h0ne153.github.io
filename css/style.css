@@ -23,8 +23,9 @@ nav a {
 }
 
 .topmenu{
-    margin-top: -62%;
-    margin-left: 10%;
+    margin-top: -61.5%;
+    margin-left: 0px;
+    font-size: 25px;
 }
 
 .topmenu > li {
@@ -60,7 +61,7 @@ nav a {
   z-index: 4;
   left: 50%;
   top: 100%;
-  width: 150px;
+  width: 250px;
   padding: 15px 0 15px;
   margin-top: 5px;
   background: white;
@@ -78,7 +79,7 @@ nav a {
   transform: translate(-50%, 0);
 }
 .submenu a {
-  font-size: 12.5px;
+  font-size: 20px;
   letter-spacing: 1px;
   padding: 5px 10px;
   transition: .3s linear;
@@ -92,8 +93,8 @@ nav{
 body {
     display: block;
     font-family: 'Montserrat', sans-serif;
-/*    margin-left: 20%;
-    margin-right: 20%;*/
+    margin-left: 15%;
+    margin-right: 15%;
     background-color: white;
     text-decoration: none;
     margin-top: 2.5%;
@@ -150,11 +151,11 @@ li{
 .text-logo {
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 175%;
+    font-size: 30px;
     background-color: white;
     position: relative;
     width: 100%;
-    padding: 1%;
+    padding: 2%;
     padding-left: 5%;
     margin-top: -56%;
 }
@@ -180,10 +181,10 @@ main {
 
 .div-about-us {
     display: flex;
-    text-align: left;
     font-size: 90%;
-    justify-content: center;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .h1-about-us {
@@ -220,8 +221,8 @@ main {
     margin-bottom: 10%;
     margin-left: 5%;
     margin-right: 5%;
-    border-radius: 50px 50px 50px 50px;
-    background-color: #B1916D;
+    border-radius: 50px;
+    border: 10px outset #B1916D;
 }
 
 
@@ -322,25 +323,21 @@ main {
     margin-left: 5%;
 }
 
-.img-about-us{
-    margin: 50px;
+.img-about-us-{
+    margin-left: 0px;
     animation-duration: 1s;
 }
 
 .text-about-us{
     float: left;
-    margin: 7px 7px 7px 0; 
+    margin: 50px;
+    margin-top: 10%;
+    font-size: 30px;
 }
 
 .main-center{
-    margin-left: 2.5%;
     margin-right: 2.5%;
-    margin-top: 60%;
-}
-
-.about-us{
-    margin: 15px;
-    margin-top: 5%;
+    margin-top: 50%;
 }
 
 footer{
@@ -667,13 +664,41 @@ a {
     padding-bottom: 10%;
 }
 
+.about-us-text{
+    margin-right: 5%;
+    margin-left: 10px;
+    font-size: 75%; 
+    display: flex;
+}
+.about-us{
+    display: flex;
+    margin-bottom: 7.5%;
+    margin-right: 2.5%;
+    margin-left: 5%;
+}
 
+.about-us-{
+    margin-bottom: 0%;
+    margin-top: 0px;
+}
+.h-about-us{
+    margin-right: 5%;
+    margin-left: 50px;
+    margin-top: 5%;
+}
 
+.img-about-us{
+    margin: 10%;
+    margin-right: 15%;
+}
 
+.about-us-2{
+    border-radius: 50px;
+    border: 12.5px solid #B1916D;
+    width: 75%;
+    margin-left: 5%;
 
-
-
-
+}
 
 
 
