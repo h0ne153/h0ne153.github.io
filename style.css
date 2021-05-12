@@ -80,7 +80,7 @@ nav a {
   transform: translate(-50%, 0);
 }
 .submenu a {
-  font-size: 20px;
+  font-size: 30px;
   letter-spacing: 1px;
   padding: 5px 10px;
   transition: .3s linear;
