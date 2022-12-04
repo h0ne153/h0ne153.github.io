@@ -7,7 +7,7 @@ const body = document.querySelector('body')
 burgerMenu.addEventListener('click', () => {
     line.classList.toggle('mainRotate')
     line.classList.toggle('afterRotate')
-    line.classList.toggle('beforeOpacity')
+    line.classList.toggle('beforeOpacity') 
     nav.classList.toggle('nav-visible')
 })
 
