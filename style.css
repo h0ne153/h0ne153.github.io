@@ -242,10 +242,8 @@ i {
     }
 
     .preface__cnh-lang {
-        writing-mode: unset;
-        transform: rotate(-0deg);
-        top: 155px;
-        font-size: 30px;
+        top: 102px;
+        font-size: 14px;
         right: 30px;
         position: absolute;
         z-index: 0;
