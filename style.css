@@ -5,19 +5,13 @@
 }
 
 @font-face {
-  font-weight: 400;
-  font-family: "Metropolis-normal";
-  src: url(assets/fonts/metropolis/Metropolis-Medium.otf);
-}
-
-@font-face {
   font-weight: 300;
   font-family: "Metropolis-thin";
   src: url(assets/fonts/metropolis/Metropolis-Thin.otf);
 }
 
 * {
-  font-family: "Metropolis-normal";
+  font-family: "Metropolis-bold";
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -26,7 +20,7 @@
 
 h1 {
   text-transform: uppercase;
-  font-size: 77px;
+  font-size: 9vh;
 }
 
 section {
@@ -71,13 +65,14 @@ span {
   text-align: center;
 }
 
-.two, .six {
+.two,
+.six {
   display: flex;
   justify-content: center;
   background-image: url(./assets/imgs/2.png);
   text-align: center;
 }
-.two .header, .six .header {
+.two .header {
   padding-top: 80px;
 }
 
@@ -107,4 +102,40 @@ span {
 
 .six {
   background-image: url(./assets/imgs/6.png);
+}
+
+.six .header {
+  padding-top: 160px;
+}
+
+.fadeOut {
+  animation-duration: 1s;
+  animation-name: fadeOut;
+  color: rgba(255, 255, 255, 0);
+}
+
+@keyframes fadeOut {
+  from {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  to {
+    color: rgba(255, 255, 255, 0);
+  }
+}
+
+.fadeIn {
+  animation-duration: 1s;
+  animation-name: fadeIn;
+  color: rgba(255, 255, 255, 1);
+}
+
+@keyframes fadeIn {
+  from {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  to {
+    color: rgba(255, 255, 255, 1);
+  }
 }
