@@ -1,7 +1,7 @@
 console.log('asdsad')
 document.querySelectorAll('section').forEach(item => {
     item.addEventListener('click', () => {
-        const text = item.querySelectorAll('h1, span')
+        const text = item.querySelectorAll('h1, span, a')
         text.forEach(child => {
             if (child.classList.contains('fadeOut')) {
                 child.classList.remove('fadeOut')

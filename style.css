@@ -63,6 +63,7 @@ span {
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
 }
 
 .two,
@@ -138,4 +139,14 @@ span {
   to {
     color: rgba(255, 255, 255, 1);
   }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  span {
+    font-size: 16px
+  };
 }
